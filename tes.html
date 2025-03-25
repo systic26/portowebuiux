@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Syamsi Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Teko:wght@400;600&display=swap" rel="stylesheet">
+    <title>Syamsi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">SYHDYH</div>
-        <nav class="nav">
+    <header style="display: flex; justify-content: space-between; align-items: center; padding: 10px;">
+        <div class="logo">
+            <img src="asset/images/logo1.png" alt="Logo" style="height: 40px;">
+        </div>
+    
+        <nav class="nav" style="display: flex; gap: 15px;">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Portfolio</a>
@@ -19,18 +21,23 @@
             <a href="#">Contact</a>
         </nav>
     </header>
+    
+    <section class="main-section">
+        <div class="text-section">
+            <h1 style="color: #0B6353; font-size: 50px;">Glad to See You Here,<br> I am Syamsi</h1>
+            <p>I'm a Digital Business student and investor with a passion for digital marketing and web development. I specialize in creating strategic and engaging online platforms that connect people with the world of investment. My goal is to make financial education more accessible, innovative, and impactful through digital solutions.</p>
+            <button class="explore-btn" style="position: fixed; bottom: 50px; right: 50px;">Explore Page</button>
+        </div>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Glad to See You Here,<br><span>I am Syamsi</span></h1>
-            <p>I'm a Digital Business student and investor with a passion for digital marketing and web development. 
-                I specialize in creating strategic and engaging online platforms that connect people with the world of investment. 
-                My goal is to make financial education more accessible, innovative, and impactful through digital solutions.</p>
-        </div>
-        <div class="hero-image">
-            <img src="assets/images/syamsi1.png" alt="Syamsi">
-            <a href="#" class="btn">Explore Page</a>
-        </div>
+        <div style="
+        position: relative; 
+        display: inline-block; 
+        background: url('asset/images/frame1.png') no-repeat center / cover;  
+        width: 500px; 
+        height: 500px;">
+        <img src="asset/images/syamsi1.png" alt="Syamsi" style="position: center; z-index: 1;">
+    </div>
     </section>
+
 </body>
 </html>

@@ -6,9 +6,12 @@
     <title>Syamsi Portfolio</title>
 </head>
 <body>
-    <header class="header">
-        <div class="logo">SYHDYH</div>
-        <nav class="nav">
+    <header style="display: flex; justify-content: space-between; align-items: center; padding: 10px;">
+        <div class="logo">
+            <img src="asset/images/logo1.png" alt="Logo" style="height: 40px;">
+        </div>
+    
+        <nav class="nav" style="display: flex; gap: 15px;">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Portfolio</a>
@@ -17,16 +20,23 @@
             <a href="#">Contact</a>
         </nav>
     </header>
-    <div class="container">
+    
+    <section class="main-section">
         <div class="text-section">
-            <h1>Glad to See You Here,<br>I am <strong>Syamsi</strong></h1>
+            <h1>Glad to See You Here,<br> I am Syamsi</h1>
             <p>I'm a Digital Business student and investor with a passion for digital marketing and web development. I specialize in creating strategic and engaging online platforms that connect people with the world of investment. My goal is to make financial education more accessible, innovative, and impactful through digital solutions.</p>
-            <a href="#" class="btn">Explore Page</a>
+            <button class="explore-btn" style="position: fixed; bottom: 50px; right: 50px;">Explore Page</button>
         </div>
-        <div class="content">
-            <img src="asset/images/syamsi1.png" alt="syamsi1">
-        </div>
+
+        <div style="
+        position: relative; 
+        display: inline-block; 
+        background: url('asset/images/frame1.png') no-repeat center / cover;  
+        width: 500px; 
+        height: 500px;">
+        <img src="asset/images/syamsi1.png" alt="Syamsi" style="position: center; z-index: 1;">
     </div>
+    </section>
+
 </body>
 </html>
-
